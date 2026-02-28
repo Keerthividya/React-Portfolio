@@ -1,0 +1,32 @@
+{
+  "name": "Vidyakeerthi SU",
+
+  "profilePictureUrl": "images/pictures/profile-picture.jpg",
+  "resumePdfUrl": "VIDYAKEERTHI_SU_CV.pdf",
+
+  "statusCircleVisible": false,
+  "statusCircleVariant": "available",
+  "statusCircleHoverMessage": "status_message_available_for_freelance",
+
+  "locales": {
+    "en": {
+      "localized_name": "Vidyakeerthi SU",
+      "localized_name_stylized": " [[Vidya {{Keerthi}}]]",
+      "status_message_available_for_freelance": "Full Stack Developer (React.js | Redux | Vue.js | REST APIs)",
+      "roles": [
+        "Full Stack Developer",
+        "React.js Developer",
+        "Frontend Developer"
+      ]
+    },
+    "es": {
+      "status_message_available_for_freelance": "¡Disponible para freelance!",
+      "roles": [
+        "Desarrollador Backend",
+        "Desarrollador Frontend",
+        "Ingeniero DevOps",
+        "Diseñador UX"
+      ]
+    }
+  }
+}

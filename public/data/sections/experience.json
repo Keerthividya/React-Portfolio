@@ -1,0 +1,127 @@
+{
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Experience",
+        "title_short_nav": "Experience",
+        "title_long_prefix": "Summary of my",
+        "title_long": "{{Work}} Experience"
+      },
+      "es": {
+        "title_short": "Experiencia",
+        "title_short_nav": "Experiencia",
+        "title_long_prefix": "Resumen de mi",
+        "title_long": "Experiencia {{Laboral}}"
+      }
+    }
+  },
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticleTimeline",
+      "locales": {},
+      "settings": {
+        "order_items_by": "dateStart",
+        "order_items_sort": "desc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "img": "images/pictures/timeline-place-dt.jpg",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "dateStart": { "year": 2024, "month": 10 },
+          "dateEnd": null,
+          "locales": {
+            "en": {
+              "title": "Software Engineer",
+              "province": "Bangalore",
+              "country": "India",
+              "institution": "Dilligen Technologies Pvt Ltd",
+              "text": "Key front-end contributor for payment products including the Payment Router Checkout, Merchant Portal, and Merchant Demo Store. Built reusable React components, ensured responsive design, and collaborated closely with product and backend teams to ship production-ready features.",
+              "list": [
+                "Built a React-based embeddable checkout experience with callback-based payment flows",
+                "Implemented UI for 10+ payment methods including cards, wallets, QRIS, pay-later, and bank transfers",
+                "Improved front-end performance and maintainability through component reuse and refactoring"
+              ],
+              "tags": ["React.js", "Redux", "REST APIs", "Payments"]
+            },
+            "es": {
+              "title": "Ingeniera de Software",
+              "province": "Bangalore",
+              "country": "India",
+              "institution": "Dilligen Technologies Pvt Ltd",
+              "text": "Desarrolladora principal de frontend para productos de pagos como Payment Router Checkout, Merchant Portal y Merchant Demo Store.",
+              "list": [],
+              "tags": []
+            }
+          }
+        },
+        {
+          "id": 2,
+          "img": "images/pictures/timeline-place-dt.jpg",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "dateStart": { "year": 2023, "month": 10 },
+          "dateEnd": { "year": 2024, "month": 9 },
+          "locales": {
+            "en": {
+              "title": "Associate Software Engineer",
+              "province": "Bangalore",
+              "country": "India",
+              "institution": "Dilligen Technologies Pvt Ltd",
+              "text": "Developed multiple front-end applications from scratch using React.js and modern JavaScript. Worked closely with backend and design teams to define API contracts and implement core UI architecture.",
+              "list": [
+                "Delivered responsive web applications aligned with UX designs and business requirements",
+                "Implemented reusable UI patterns and state management with Redux",
+                "Participated in code reviews and internal product improvements"
+              ],
+              "tags": ["React.js", "Redux", "JavaScript", "CSS"]
+            },
+            "es": {
+              "title": "Ingeniera de Software Junior",
+              "province": "Bangalore",
+              "country": "India",
+              "institution": "Dilligen Technologies Pvt Ltd",
+              "text": "Desarrolló aplicaciones frontend desde cero utilizando React.js y JavaScript moderno.",
+              "list": [],
+              "tags": []
+            }
+          }
+        },
+        {
+          "id": 3,
+          "img": "images/pictures/timeline-place-deltax.jpg",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "dateStart": { "year": 2023, "month": 1 },
+          "dateEnd": { "year": 2023, "month": 7 },
+          "locales": {
+            "en": {
+              "title": "Associate Product Engineer Intern",
+              "province": "Bangalore",
+              "country": "India",
+              "institution": "DeltaX",
+              "text": "Built multiple web applications using Vue.js on the frontend and C#/.NET Core with REST APIs and SQL Server on the backend.",
+              "list": [
+                "Developed an IMDB-like web application for movie data exploration",
+                "Built an online courses platform and a Rhythm music application using Vue.js",
+                "Worked across the stack to integrate UI with RESTful services and relational data models"
+              ],
+              "tags": ["Vue.js", ".NET Core", "REST APIs", "SQL Server"]
+            },
+            "es": {
+              "title": "Becaria de Ingeniería de Producto",
+              "province": "Bangalore",
+              "country": "India",
+              "institution": "DeltaX",
+              "text": "Participó en el desarrollo de aplicaciones web con Vue.js y APIs REST en .NET Core.",
+              "list": [],
+              "tags": []
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

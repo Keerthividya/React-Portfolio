@@ -1,0 +1,59 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Contact",
+                "title_short_nav": "Contact",
+                "title_long_prefix": "Don't hesitate to",
+                "title_long": "{{Contact}} "
+            },
+            "es": {
+                "title_short": "Contacto",
+                "title_short_nav": "Contacto",
+                "title_long_prefix": "No dudes en",
+                "title_long": "{{Contácta}}me"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleInfoList",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "locales": {
+                "en": {"title": ""},
+                "es": {"title": "O si {{prefieres}}..."}
+            },
+            "items": [
+                
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-envelope",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "label": "su.vidyakeerthi@gmail.com.com",
+                    "link": {"href": "mailto:su.vidyakeerthi@gmail.com", "tooltipString": "email_me"},
+                    "locales": {
+                        "en": {"title": "E-mail"}
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-brands fa-linkedin",
+                    "faIconColors": { "bg": "", "fill": "" },
+                    "label": "@vidya-keerthi",
+                    "link": {"href": "https://www.linkedin.com/in/vidya-keerthi/", "tooltipString": "open_website"},
+                    "locales": {
+                        "en": {"title": "LinkedIn"}
+                    }
+                }
+               
+               
+                
+            ]
+        }
+    ]
+}

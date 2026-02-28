@@ -1,0 +1,177 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Life recently",
+                "title_short_nav": "Updates",
+                "title_long_prefix": "Take a look at my",
+                "title_long": "Recent {{Updates}}"
+            },
+            "es": {
+                "title_short": "Vida Reciente",
+                "title_short_nav": "Actualizaciones",
+                "title_long_prefix": "Consulta mis",
+                "title_long": "Actualizaciones {{Recientes}}"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleFacts",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": null,
+                    "faIcon": "fa-solid fa-briefcase",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "2.8+",
+                            "text": "Years of professional experience"
+                        },
+                        "es": {
+                            "text": "Años de experiencia profesional"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": null,
+                    "faIcon": "fa-solid fa-code",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "3+",
+                            "text": "Major payment products delivered"
+                        },
+                        "es": {
+                            "text": "Productos de pago entregados"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": null,
+                    "faIcon": "fa-solid fa-trophy",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "3",
+                            "text": "Awards & hackathon recognitions"
+                        },
+                        "es": {
+                            "text": "Premios y reconocimientos en hackathons"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleThread",
+            "locales": {
+                "en": { "title": "Quick {{Facts}}" },
+                "es": { "title": "Feed de {{Noticias}}" }
+            },
+            "settings": {
+                "max_rows_collapse_threshold": 3,
+                "order_items_by": "dateStart",
+                "order_items_sort": "desc"
+            },
+            "items": [
+              
+                {
+                    "id": 1,
+                    "date": {"year": 2024, "month": 12},
+                    "preview": {
+                        "links": [
+                            {"href": "https://lnkd.in/g7p7ddfv", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Published My First {{Blog on the Nimbuz Platform!}}",
+                            "province": "",
+                            "country": "",
+                            "institution": "Dilligen Technologies pvt ltd",
+                          
+                            "text":"Topic: Deploying React with Webpack on AWS vs Nimbuz! Shared my first technical blog, exploring the deployment journey of React + Webpack applications on AWS EC2 and comparing it with Nimbuz’s simplified approach.",
+                            "list": [
+                                "Cross-platform compatibility with iOS and Android",
+                                "User-friendly interface with intuitive navigation",
+                                "Integration with popular APIs for enhanced functionality",
+                                "Real-time data synchronization for seamless user experience"
+                            ]
+                        },
+                        "es": {
+                            "title": "Trabajando en un nuevo {{proyecto móvil!}}",
+                            "province": "California",
+                            "country": "EE.UU.",
+                            "institution": "",
+                            "text": "Estoy emocionado de compartir que actualmente estoy trabajando en un nuevo proyecto móvil! Algunas características de este proyecto incluyen:",
+                            "list": [
+                                "Compatibilidad multiplataforma con iOS y Android",
+                                "Interfaz amigable con navegación intuitiva",
+                                "Integración con APIs populares para funcionalidad mejorada",
+                                "Sincronización de datos en tiempo real para una experiencia de usuario fluida"
+                            ]
+                        }
+                    }
+                },
+            
+                {
+                    "id": 2,
+                    "date": {"year": 2025, "month": 6},
+                    "preview": {
+                        "links": [
+                            {"href": "https://google.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"},
+                            {"href": "https://github.com/ryanbalieiro/react-portfolio-template", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Launched my {{personal website!}}",
+                            "province": "California",
+                            "country": "US",
+                            "institution": "",
+                            "text": "I’m excited to announce the launch of my [[personal website]]! 🎉 This platform is a space where I can share my projects, blog posts, and insights into the world of technology and development. It’s been a labor of love, and I can’t wait for you all to explore it. Here are some highlights of what you can find on the site:",
+                            "list": [
+                                "Portfolio showcasing my projects and contributions",
+                                "Blog with articles on technology, coding, and personal experiences",
+                                "Contact form for inquiries and collaborations",
+                                "Links to my social media profiles and GitHub"
+                            ]
+                        },
+                        "es": {
+                            "title": "¡Lanzamiento de mi {{sitio web personal!}}",
+                            "province": "California",
+                            "country": "EE.UU.",
+                            "institution": "",
+                            "text": "Estoy emocionado de anunciar el lanzamiento de mi [[sitio web personal]]! 🎉 Esta plataforma es un espacio donde puedo compartir mis proyectos, publicaciones de blog y reflexiones sobre el mundo de la tecnología y el desarrollo. Ha sido un trabajo de amor, y no puedo esperar a que todos lo exploren. Aquí hay algunos aspectos destacados de lo que puedes encontrar en el sitio:",
+                            "list": [
+                                "Portafolio que muestra mis proyectos y contribuciones",
+                                "Blog con artículos sobre tecnología, codificación y experiencias personales",
+                                "Formulario de contacto para consultas y colaboraciones",
+                                "Enlaces a mis perfiles en redes sociales y GitHub"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
