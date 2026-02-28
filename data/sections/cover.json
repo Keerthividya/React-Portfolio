@@ -1,0 +1,89 @@
+{
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Welcome!",
+        "title_short_nav": "About me",
+        "title_long_prefix": "Hello...",
+        "title_long": "I'm {{Vidya Keerthi!}}"
+      },
+      "es": {
+        "title_short": "¡Saludos!",
+        "title_short_nav": "Sobre mí",
+        "title_long_prefix": "Hola...",
+        "title_long": "Soy {{Vidya Keerthi!}}"
+      }
+    }
+  },
+
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticleInlineList",
+      "locales": {},
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc",
+        "display_as_list_if_width_is_lower_than": 380
+      },
+      "items": [
+        {
+          "id": 1,
+          "label": "vidya-keerthi",
+          "link": {
+            "href": "https://www.linkedin.com/in/vidya-keerthi/",
+            "tooltipString": ""
+          },
+          "faIcon": "fa-brands fa-linkedin"
+        },
+        {
+          "id": 2,
+          "label": "keerthividya321@gmail.com",
+          "link": {
+            "href": "mailto:keerthividya321@gmail.com",
+            "tooltipString": "email_me"
+          },
+          "faIcon": "fa-regular fa-envelope"
+        },
+        {
+          "id": 3,
+          "label": "Keerthividya",
+          "link": {
+            "href": "https://github.com/Keerthividya",
+            "tooltipString": "see_on_github"
+          },
+          "faIcon": "fa-brands fa-github"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "component": "ArticleText",
+      "locales": {
+        "en": { "title": "{{A little bit}} about me..." },
+        "es": { "title": "{{Un poco}} sobre mí..." }
+      },
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "img": "images/pictures/about-texts-image-1.png",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "locales": {
+            "en": {
+              "text": "<p>I'm a {{Full Stack Developer}} with [[2.8+ years]] of experience building scalable, responsive web applications using React.js and Redux.</p><p>I focus on front-end architecture, clean state management, and smooth REST API integration to deliver production-ready products from scratch. I've also worked with Vue.js and .NET backends in real-world projects.</p><p>I enjoy working on payment products, dashboards, and user-facing experiences that feel fast, reliable, and intuitive.</p>"
+            },
+            "es": {
+              "text": "<p>Soy una {{desarrolladora full stack}} con [[2.8+ años]] de experiencia creando aplicaciones web escalables y responsive con React.js y Redux.</p><p>Me enfoco en la arquitectura de frontend, el manejo claro del estado y la integración fluida de APIs REST para entregar productos listos para producción desde cero. También he trabajado con Vue.js y backends en .NET en proyectos reales.</p><p>Disfruto trabajando en productos de pago, paneles y experiencias de usuario rápidas, fiables e intuitivas.</p>"
+            }
+          }
+        }
+      ]
+    }
+   
+  ]
+}

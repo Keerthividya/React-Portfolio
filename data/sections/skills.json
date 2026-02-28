@@ -1,0 +1,179 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Skills",
+                "title_short_nav": "Skills",
+                "title_long_prefix": "Explore",
+                "title_long": "My {{Skill Set}}"
+            },
+            "es": {
+                "title_short": "Habilidades",
+                "title_short_nav": "Habilidades",
+                "title_long_prefix": "Explora",
+                "title_long": "Mis {{Habilidades}}"
+            }
+        }
+    },
+
+    "articles": [
+   
+
+        {
+            "id": 1,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {"title": "Frontend Stack"},
+                "es": {"title": "Stack de Frontend"}
+            },
+            "settings": {
+                "max_items_per_row": 3,
+                "max_rows_collapse_threshold": 6,
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "round_icons": false
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-brands fa-html5",
+                    "faIconColors": {"bg": "", "fill": "#E34F26"},
+                    "date": {"year": 2023, "month": 1},
+                    "locales": {
+                        "en": {
+                            "title": "HTML 5",
+                            "text": "I am proficient in HTML5 for building structured web pages.",
+                            "level": ""
+                        },
+                        "es": {
+                            "text": "Soy competente en HTML5 para construir páginas web estructuradas."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-brands fa-css3-alt",
+                    "faIconColors": {"bg": "", "fill": "#1572B6"},
+                    "date": {"year": 2023, "month": 1},
+                    "locales": {
+                        "en": {
+                            "title": "CSS 3",
+                            "text": "I can create responsive and visually appealing designs using CSS3.",
+                            "level": ""
+                        },
+                        "es": {
+                            "text": "Puedo crear diseños receptivos y visualmente atractivos utilizando CSS3."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-brands fa-js",
+                    "faIconColors": {"bg": "", "fill": "#F7DF1E", "fillLight": "#a69617"},
+                    "date": {"year": 2023, "month": 1},
+                    "locales": {
+                        "en": {
+                            "title": "JavaScript ES6+",
+                            "text": "Mastered JavaScript ES6+ for dynamic and interactive web applications.",
+                            "level": ""
+                        },
+                        "es": {
+                            "text": "Dominio de JavaScript ES6+ para aplicaciones web dinámicas e interactivas."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-brands fa-react",
+                    "faIconColors": {"bg": "", "fill": "#61DAFB", "fillLight": "#317385"},
+                    "date": {"year": 2023, "month": 1},
+                    "locales": {
+                        "en": {
+                            "title": "React",
+                            "text": "Complete understanding of React for building modern web applications.",
+                            "level": ""
+                        },
+                        "es": {
+                            "text": "Comprensión completa de React para construir aplicaciones web modernas."
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-brands fa-vuejs",
+                    "faIconColors": {"bg": "", "fill": "#4FC08D", "fillLight": "#2b825b"},
+                    "date": {"year": 2023, "month": 1},
+                    "locales": {
+                        "en": {
+                            "title": "Vue.js",
+                            "text": "Good understanding of Vue.js for building interactive user interfaces.",
+                            "level": ""
+                        },
+                        "es": {
+                            "text": "Buena comprensión de Vue.js para construir interfaces de usuario interactivas."
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "img": "",
+                    "faIcon": "fa-brands fa-bootstrap",
+                    "faIconColors": {"bg": "", "fill": "#7952B3"},
+                    "date": {"year": 2023, "month": 1},
+                    "locales": {
+                        "en": {
+                            "title": "Bootstrap 5+",
+                            "text": "Good understanding of Bootstrap for responsive design.",
+                            "level": ""
+                        },
+                        "es": {
+                            "text": "Buena comprensión de Bootstrap para diseño receptivo."
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {"title": "Source Control"},
+                "es": {"title": "Stack de Backend"}
+            },
+            "settings": {
+                "max_items_per_row": 3,
+                "max_rows_collapse_threshold": 6,
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "round_icons": false
+            },
+            "items": [
+                
+            
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-brands fa-git",
+                    "faIconColors": {"bg": "", "fill": "#F05032"},
+                    "date": {"year": 2023, "month": 1},
+                    "locales": {
+                        "en": {
+                            "title": "Git",
+                            "text": "Complete understanding of Git for version control and collaboration.",
+                            "level": ""
+                        },
+                        "es": {
+                            "text": "Comprensión completa de Git para control de versiones y colaboración."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

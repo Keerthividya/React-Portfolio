@@ -1,0 +1,59 @@
+{
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Education",
+        "title_short_nav": "Education",
+        "title_long_prefix": "This is my",
+        "title_long": "{{Education}} Background"
+      },
+      "es": {
+        "title_short": "Educación",
+        "title_short_nav": "Educación",
+        "title_long_prefix": "Esta es mi",
+        "title_long": "{{Formación}} Educativa"
+      }
+    }
+  },
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticleTimeline",
+      "locales": {},
+      "settings": {
+        "order_items_by": "dateStart",
+        "order_items_sort": "desc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "img": "images/pictures/timeline-place-kec.png",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "dateStart": { "year": 2019, "month": 1 },
+          "dateEnd": { "year": 2023, "month": 12 },
+          "locales": {
+            "en": {
+              "title": "B.E. Computer Science and Engineering",
+              "province": "Tamil Nadu",
+              "country": "India",
+              "institution": "Kongu Engineering College",
+              "text": "Completed a Bachelor of Engineering in Computer Science and Engineering with a CGPA of [[8.72/10]]. Focused on core CS fundamentals, algorithms, data structures, and web development.",
+              "list": [],
+              "tags": ["B.E.", "Computer Science", "CGPA 8.72/10"]
+            },
+            "es": {
+              "title": "Grado en Ingeniería Informática",
+              "province": "Tamil Nadu",
+              "country": "India",
+              "institution": "Kongu Engineering College",
+              "text": "Grado en Ingeniería en Computación con un promedio de [[8.72/10]].",
+              "list": [],
+              "tags": []
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Portfolio",
+        "title_short_nav": "Portfolio",
+        "title_long_prefix": "Take a look at",
+        "title_long": "My {{Portfolio}}"
+      },
+      "es": {
+        "title_short": "Portafolio",
+        "title_short_nav": "Portafolio",
+        "title_long_prefix": "Explora",
+        "title_long": "Mi {{Portafolio}}"
+      }
+    }
+  },
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticlePortfolio",
+      "locales": {
+        "en": {
+          "category_all": "All",
+          "category_apps": "Apps",
+          "category_web": "Web",
+          "category_utilities": "Utilities"
+        },
+        "es": {
+          "category_all": "Todo",
+          "category_apps": "Apps",
+          "category_web": "Web",
+          "category_utilities": "Utilidades"
+        }
+      },
+      "settings": {
+        "categorize_by": ["category_apps", "category_web", "category_utilities"],
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "categoryId": "category_apps",
+          "img": "images/pictures/portfolio-project-logo-1.png",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "preview": {
+            "links": [],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Payment Router Checkout",
+              "text": "A React-based embeddable checkout experience that can be integrated via script as an iframe-like modal. Supports callbacks for payment flow and 10+ payment methods including cards, wallets, QRIS, pay-later, and bank transfers.",
+              "tags": ["React.js", "Payments", "Checkout", "REST APIs"]
+            },
+            "es": {
+              "title": "Payment Router Checkout",
+              "text": "Experiencia de checkout embebible construida con React, integrable mediante script como un modal tipo iframe. Soporta callbacks de pago y más de 10 métodos de pago.",
+              "tags": ["React.js", "Pagos", "Checkout"]
+            }
+          }
+        },
+        {
+          "id": 2,
+          "categoryId": "category_web",
+          "img": "images/pictures/portfolio-project-logo-2.png",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "preview": {
+            "links": [],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Merchant Portal",
+              "text": "Responsive merchant portal with separate live and test environments. Provides configuration for 200+ payment processors, real-time transaction tracking, and dynamic white-labeling with live theme preview.",
+              "tags": ["React.js", "Portal", "Payments"]
+            },
+            "es": {
+              "title": "Merchant Portal",
+              "text": "Portal de comercio responsive con entornos de pruebas y producción, configuración de procesadores de pago y seguimiento de transacciones en tiempo real.",
+              "tags": ["React.js", "Portal", "Pagos"]
+            }
+          }
+        },
+        {
+          "id": 3,
+          "categoryId": "category_web",
+          "img": "images/pictures/portfolio-project-logo-3.png",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "preview": {
+            "links": [],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Merchant Demo Store",
+              "text": "Demo storefront application used to simulate real-world payment flows and allow merchants to test different payment methods end-to-end.",
+              "tags": ["React.js", "Demo Store", "Payments"]
+            },
+            "es": {
+              "title": "Merchant Demo Store",
+              "text": "Tienda demo para simular flujos de pago reales y probar distintos métodos de pago.",
+              "tags": ["React.js", "Tienda", "Pagos"]
+            }
+          }
+        },
+        {
+          "id": 4,
+          "categoryId": "category_web",
+          "img": "images/pictures/portfolio-project-logo-4.png",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "preview": {
+            "links": [],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "IMDB-like Movie App",
+              "text": "A movie exploration web application built with Vue.js for the UI and C#/.NET Core with REST APIs and SQL Server on the backend.",
+              "tags": ["Vue.js", ".NET Core", "SQL Server"]
+            },
+            "es": {
+              "title": "Aplicación tipo IMDB",
+              "text": "Aplicación web para explorar películas, construida con Vue.js y un backend en .NET Core con APIs REST y SQL Server.",
+              "tags": ["Vue.js", ".NET Core", "SQL Server"]
+            }
+          }
+        },
+        {
+          "id": 5,
+          "categoryId": "category_web",
+          "img": "images/pictures/portfolio-project-logo-5.png",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "preview": {
+            "links": [],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Online Courses Platform",
+              "text": "A web platform for browsing and consuming online courses, implemented with Vue.js and REST APIs.",
+              "tags": ["Vue.js", "Courses", "Web App"]
+            },
+            "es": {
+              "title": "Plataforma de Cursos Online",
+              "text": "Plataforma web para explorar y consumir cursos online, construida con Vue.js y APIs REST.",
+              "tags": ["Vue.js", "Cursos", "Web App"]
+            }
+          }
+        },
+        {
+          "id": 6,
+          "categoryId": "category_apps",
+          "img": "images/pictures/portfolio-project-logo-6.png",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "preview": {
+            "links": [],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Rhythm Music App",
+              "text": "A music-focused web application built with Vue.js, featuring playlists and an engaging listening experience.",
+              "tags": ["Vue.js", "Music", "Web App"]
+            },
+            "es": {
+              "title": "Rhythm Music App",
+              "text": "Aplicación web de música construida con Vue.js, con listas de reproducción y una experiencia de usuario atractiva.",
+              "tags": ["Vue.js", "Música", "Web App"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

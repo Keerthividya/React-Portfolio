@@ -1,0 +1,178 @@
+{
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Awards",
+        "title_short_nav": "Achievements",
+        "title_long_prefix": "Here are my",
+        "title_long": "Career {{Achievements}}"
+      },
+      "es": {
+        "title_short": "Logros",
+        "title_short_nav": "Logros",
+        "title_long_prefix": "Aquí están mis",
+        "title_long": "{{Logros}} Profesionales"
+      }
+    }
+  },
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticleCards",
+      "locales": {
+        "en": { "title": "Certifications" },
+        "es": { "title": "Certificaciones" }
+      },
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "desc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "img": "",
+          "faIcon": "fa-solid fa-code",
+          "faIconColors": { "bg": "#4CAF50", "fill": "#EEE" },
+          "date": { "year": 2024, "month": 1 },
+          "link": { "href": "", "tooltipString": "see_certification" },
+          "locales": {
+            "en": {
+              "title": "HackerRank",
+              "text": "Certified Front End Developer (React)"
+            },
+            "es": {
+              "text": "Certificación HackerRank – Front End Developer (React)"
+            }
+          }
+        },
+        {
+          "id": 2,
+          "img": "",
+          "faIcon": "fa-solid fa-database",
+          "faIconColors": { "bg": "#1565C0", "fill": "#EEE" },
+          "date": { "year": 2024, "month": 1 },
+          "link": { "href": "", "tooltipString": "see_certification" },
+          "locales": {
+            "en": {
+              "title": "HackerRank",
+              "text": "Certified SQL Developer"
+            },
+            "es": {
+              "text": "Certificación HackerRank – SQL"
+            }
+          }
+        },
+        {
+          "id": 3,
+          "img": "",
+          "faIcon": "fa-solid fa-graduation-cap",
+          "faIconColors": { "bg": "#8E24AA", "fill": "#EEE" },
+          "date": { "year": 2023, "month": 6 },
+          "link": { "href": "", "tooltipString": "see_certification" },
+          "locales": {
+            "en": {
+              "title": "Namaste React – NamasteDev",
+              "text": "Completed Namaste React course focused on deep dive into React.js concepts."
+            },
+            "es": {
+              "text": "Curso Namaste React de NamasteDev, con enfoque en conceptos avanzados de React.js."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "component": "ArticleThread",
+      "locales": {
+        "en": { "title": "Awards" },
+        "es": { "title": "Premios" }
+      },
+      "settings": {
+        "max_rows_collapse_threshold": 4,
+        "order_items_by": "date",
+        "order_items_sort": "desc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "date": { "year": 2022, "month": 3 },
+          "preview": {
+            "links": [],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "First Place – \"WHERE IS THE BUG?\"",
+              "province": "Chennai",
+              "country": "India",
+              "institution": "Jeppiaar Institute of Technology",
+              "text": "Won first place in the debugging event \"WHERE IS THE BUG?\", demonstrating strong problem-solving and code analysis skills."
+            },
+            "es": {
+              "title": "Primer Lugar – \"WHERE IS THE BUG?\"",
+              "province": "Chennai",
+              "country": "India",
+              "institution": "Jeppiaar Institute of Technology",
+              "text": "Primer lugar en el concurso de depuración \"WHERE IS THE BUG?\", demostrando sólidas habilidades de análisis y resolución de errores."
+            }
+          }
+        },
+        {
+          "id": 2,
+          "date": { "year": 2022, "month": 4 },
+          "preview": {
+            "links": [],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Second Prize – Paper Presentation on Nano Diamond Battery",
+              "province": "Erode",
+              "country": "India",
+              "institution": "Bannari Amman Institute of Technology",
+              "text": "Awarded second prize for a technical paper presentation on Nano Diamond Battery technology."
+            },
+            "es": {
+              "title": "Segundo Premio – Presentación de Artículo sobre Nano Diamond Battery",
+              "province": "Erode",
+              "country": "India",
+              "institution": "Bannari Amman Institute of Technology",
+              "text": "Segundo premio por una presentación técnica sobre la tecnología de baterías Nano Diamond."
+            }
+          }
+        },
+        {
+          "id": 3,
+          "date": { "year": 2022, "month": 8 },
+          "preview": {
+            "links": [],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Top 10 – Internal Hackathon (Smart India Hackathon 2022)",
+              "province": "",
+              "country": "India",
+              "institution": "AICTE Internal Hackathon",
+              "text": "Ranked in the Top 10 in the internal hackathon and selected for Smart India Hackathon 2022 for website redesign of AICTE."
+            },
+            "es": {
+              "title": "Top 10 – Hackathon Interno (Smart India Hackathon 2022)",
+              "province": "",
+              "country": "India",
+              "institution": "Hackathon interno de AICTE",
+              "text": "Clasificada en el Top 10 y seleccionada para Smart India Hackathon 2022 para el rediseño del sitio web de AICTE."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
