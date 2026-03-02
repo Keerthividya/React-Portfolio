@@ -60,7 +60,7 @@
       "id": 2,
       "component": "ArticleText",
       "locales": {
-        "en": { "title": "{{A little bit}} about me..." },
+        "en": { "title": "{{A little}} about me..." },
         "es": { "title": "{{Un poco}} sobre mí..." }
       },
       "settings": {
