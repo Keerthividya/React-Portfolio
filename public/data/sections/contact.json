@@ -34,7 +34,7 @@
                     "id": 1,
                     "faIcon": "fa-solid fa-envelope",
                     "faIconColors": { "bg": "", "fill": "" },
-                    "label": "su.vidyakeerthi@gmail.com.com",
+                    "label": "su.vidyakeerthi@gmail.com",
                     "link": {"href": "mailto:su.vidyakeerthi@gmail.com", "tooltipString": "email_me"},
                     "locales": {
                         "en": {"title": "E-mail"}
