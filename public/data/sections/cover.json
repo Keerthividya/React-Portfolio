@@ -75,10 +75,10 @@
           "faIconColors": { "bg": "", "fill": "" },
           "locales": {
             "en": {
-              "text": "<p>I'm a {{Full Stack Developer}} with [[2.8+ years]] of experience building scalable, responsive web applications using React.js and Redux.</p><p>I focus on front-end architecture, clean state management, and smooth REST API integration to deliver production-ready products from scratch. I've also worked with Vue.js and .NET backends in real-world projects.</p><p>I enjoy working on payment products, dashboards, and user-facing experiences that feel fast, reliable, and intuitive.</p>"
+              "text": "<p>I'm a {{Full Stack Developer}} with [[3 years]] of experience building scalable, responsive web applications using React.js and Redux.</p><p>I focus on front-end architecture, clean state management, and smooth REST API integration to deliver production-ready products from scratch. I've also worked with Vue.js and .NET backends in real-world projects.</p><p>I enjoy working on payment products, dashboards, and user-facing experiences that feel fast, reliable, and intuitive.</p>"
             },
             "es": {
-              "text": "<p>Soy una {{desarrolladora full stack}} con [[2.8+ años]] de experiencia creando aplicaciones web escalables y responsive con React.js y Redux.</p><p>Me enfoco en la arquitectura de frontend, el manejo claro del estado y la integración fluida de APIs REST para entregar productos listos para producción desde cero. También he trabajado con Vue.js y backends en .NET en proyectos reales.</p><p>Disfruto trabajando en productos de pago, paneles y experiencias de usuario rápidas, fiables e intuitivas.</p>"
+              "text": "<p>Soy una {{desarrolladora full stack}} con [[3 años]] de experiencia creando aplicaciones web escalables y responsive con React.js y Redux.</p><p>Me enfoco en la arquitectura de frontend, el manejo claro del estado y la integración fluida de APIs REST para entregar productos listos para producción desde cero. También he trabajado con Vue.js y backends en .NET en proyectos reales.</p><p>Disfruto trabajando en productos de pago, paneles y experiencias de usuario rápidas, fiables e intuitivas.</p>"
             }
           }
         }
